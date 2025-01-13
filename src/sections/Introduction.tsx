@@ -1,8 +1,7 @@
 "use client"
 import Tag from "@/components/Tag";
-import { motion, useTransform } from "framer-motion";
+import { useTransform } from "framer-motion";
 import { useScroll } from "framer-motion";
-import { span } from "framer-motion/client";
 import { useEffect, useRef, useState } from "react";
 import { twMerge } from "tailwind-merge";
 

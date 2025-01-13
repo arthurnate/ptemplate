@@ -4,7 +4,7 @@ import designeg1 from "@/assets/images/design-example-1.png"
 import designeg2 from "@/assets/images/design-example-2.png"
 import Image from "next/image";
 import Pointer from "@/components/Pointer";
-import {delay, motion, useAnimate} from "framer-motion"
+import { motion, useAnimate} from "framer-motion"
 import { useEffect } from "react";
 import cursorYouImg from '@/assets/images/cursor-you.svg'
 
