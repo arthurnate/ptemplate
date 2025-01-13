@@ -11,15 +11,15 @@ export default function CallToAction() {
             {x: "-50%"},
             {duration: 30, ease: "linear", repeat: Infinity}
         )
-    }, [])
+    }, [animate, scope])
 
-    useEffect(()=>{
-        if(isHovered){
-            animation.current.speed = 0.5
-        } else {
-            animation.current.speed = 1;
-        }
-    }, [isHovered])
+    // useEffect(()=>{
+    //     if(isHovered){
+    //         animation.current.speed = 0.5
+    //     } else {
+    //         animation.current.speed = 1;
+    //     }
+    // }, [isHovered])
 
     return <section className="py-24">
         <div className="overflow-x-clip p-4 flex">
